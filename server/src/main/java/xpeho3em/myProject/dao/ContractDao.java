@@ -15,4 +15,5 @@ public interface ContractDao {
     Contract updateContract(Contract contract);
 
     Optional<Contract> deleteContract(String number);
+    void deleteAllContracts();
 }
