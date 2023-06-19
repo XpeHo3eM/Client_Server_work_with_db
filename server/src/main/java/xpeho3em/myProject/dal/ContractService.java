@@ -14,4 +14,5 @@ public interface ContractService {
     Contract updateContract(Contract contract);
 
     void deleteContract(String number);
+    void deleteAllContracts();
 }

@@ -67,4 +67,11 @@ public class ContractServiceImpl implements ContractService {
 
         log.info("Договор с номером {} удален", number);
     }
+
+    @Override
+    public void deleteAllContracts() {
+        contractDao.deleteAllContracts();
+
+        log.info("Все договора удалены");
+    }
 }

@@ -105,4 +105,17 @@ public class ContractDaoImpl implements ContractDao {
 
         return getContractByNumber(number);
     }
+
+    @Override
+    public void deleteAllContracts() {
+        log.info("Удаление всех договоров");
+
+        String sqlQuery = "DELETE FROM contracts";
+
+        try {
+            jdbcTemplate.update(sqlQuery);
+        } catch (DataAccessException e) {
+            throw new DatabaseAccessException("Ошибка удаления договоров");
+        }
+    }
 }
