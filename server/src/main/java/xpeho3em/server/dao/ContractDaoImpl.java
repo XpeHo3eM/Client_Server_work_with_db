@@ -1,13 +1,13 @@
-package xpeho3em.myProject.dao;
+package xpeho3em.server.dao;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.stereotype.Repository;
-import xpeho3em.myProject.exception.DatabaseAccessException;
-import xpeho3em.myProject.model.Contract;
-import xpeho3em.myProject.util.Mapper;
+import xpeho3em.server.exception.DatabaseAccessException;
+import xpeho3em.server.model.Contract;
+import xpeho3em.server.util.Mapper;
 
 import java.util.List;
 import java.util.Optional;

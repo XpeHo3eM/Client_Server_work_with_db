@@ -1,6 +1,6 @@
-package xpeho3em.myProject.dao;
+package xpeho3em.server.dao;
 
-import xpeho3em.myProject.model.Contract;
+import xpeho3em.server.model.Contract;
 
 import java.util.List;
 import java.util.Optional;

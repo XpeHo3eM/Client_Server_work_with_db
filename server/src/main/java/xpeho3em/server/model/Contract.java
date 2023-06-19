@@ -1,4 +1,4 @@
-package xpeho3em.myProject.model;
+package xpeho3em.server.model;
 
 import jakarta.validation.constraints.PastOrPresent;
 import lombok.Builder;

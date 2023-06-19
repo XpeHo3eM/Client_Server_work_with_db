@@ -1,12 +1,12 @@
-package xpeho3em.myProject.controller;
+package xpeho3em.server.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import xpeho3em.myProject.exception.DatabaseAccessException;
-import xpeho3em.myProject.exception.EntityAlreadyExists;
-import xpeho3em.myProject.exception.EntityNotFoundException;
+import xpeho3em.server.exception.DatabaseAccessException;
+import xpeho3em.server.exception.EntityAlreadyExists;
+import xpeho3em.server.exception.EntityNotFoundException;
 
 import java.util.Map;
 

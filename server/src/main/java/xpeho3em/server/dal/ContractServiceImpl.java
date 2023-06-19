@@ -1,13 +1,13 @@
-package xpeho3em.myProject.dal;
+package xpeho3em.server.dal;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import xpeho3em.myProject.dao.ContractDaoImpl;
-import xpeho3em.myProject.exception.EntityAlreadyExists;
-import xpeho3em.myProject.exception.EntityNotDeletedException;
-import xpeho3em.myProject.exception.EntityNotFoundException;
-import xpeho3em.myProject.model.Contract;
-import xpeho3em.myProject.validator.ContractValidator;
+import xpeho3em.server.dao.ContractDaoImpl;
+import xpeho3em.server.exception.EntityAlreadyExists;
+import xpeho3em.server.exception.EntityNotDeletedException;
+import xpeho3em.server.exception.EntityNotFoundException;
+import xpeho3em.server.model.Contract;
+import xpeho3em.server.validator.ContractValidator;
 
 import java.util.ArrayList;
 import java.util.List;

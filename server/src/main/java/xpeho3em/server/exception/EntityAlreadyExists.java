@@ -1,4 +1,4 @@
-package xpeho3em.myProject.exception;
+package xpeho3em.server.exception;
 
 public class EntityAlreadyExists extends RuntimeException {
     public EntityAlreadyExists(String message) {

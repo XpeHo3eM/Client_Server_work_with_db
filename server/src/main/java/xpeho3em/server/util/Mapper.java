@@ -1,6 +1,6 @@
-package xpeho3em.myProject.util;
+package xpeho3em.server.util;
 
-import xpeho3em.myProject.model.Contract;
+import xpeho3em.server.model.Contract;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

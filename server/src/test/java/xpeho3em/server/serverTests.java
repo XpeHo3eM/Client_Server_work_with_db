@@ -1,24 +1,20 @@
-package xpeho3em.myProject;
+package xpeho3em.server;
 
 import lombok.RequiredArgsConstructor;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.DirtiesContext;
-import xpeho3em.myProject.dal.ContractService;
-import xpeho3em.myProject.model.Contract;
+import xpeho3em.server.dal.ContractService;
+import xpeho3em.server.model.Contract;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.LocalDate;
 import java.time.Month;
-import java.util.List;
 
 @SpringBootTest
 @RequiredArgsConstructor(onConstructor_ = @Autowired)
-class MyProjectApplicationTests {
+class serverTests {
 	private final ContractService service;
 	private static Contract contract1;
 	private static Contract contract2;

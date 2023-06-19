@@ -1,14 +1,13 @@
-package xpeho3em.myProject.controller;
+package xpeho3em.server.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import xpeho3em.myProject.dal.ContractService;
-import xpeho3em.myProject.model.Contract;
+import xpeho3em.server.dal.ContractService;
+import xpeho3em.server.model.Contract;
 
-import java.awt.*;
 import java.util.List;
 
 @Slf4j

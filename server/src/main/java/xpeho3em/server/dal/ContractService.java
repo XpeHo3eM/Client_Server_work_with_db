@@ -1,6 +1,6 @@
-package xpeho3em.myProject.dal;
+package xpeho3em.server.dal;
 
-import xpeho3em.myProject.model.Contract;
+import xpeho3em.server.model.Contract;
 
 import java.util.List;
 

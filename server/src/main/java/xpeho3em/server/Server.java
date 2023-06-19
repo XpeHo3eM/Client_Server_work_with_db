@@ -1,13 +1,13 @@
-package xpeho3em.myProject;
+package xpeho3em.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyProjectApplication {
+public class Server {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyProjectApplication.class, args);
+		SpringApplication.run(Server.class, args);
 	}
 
 }
